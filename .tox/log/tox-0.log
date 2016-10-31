@@ -1,0 +1,9 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/usr/bin/python', local('/home/baks/Courses/Structured Systems Analysis and Design/Assignment1_201525094/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/baks/Courses/Structured Systems Analysis and Design/Assignment1_201525094/.tox/dist')]
+env: None
+
+Traceback (most recent call last):
+  File "setup.py", line 21, in <module>
+    setup(
+NameError: name 'setup' is not defined
